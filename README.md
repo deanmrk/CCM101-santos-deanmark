@@ -1,5 +1,5 @@
 ##
-# Name: Santos, Dean Mark
+# Name: Santos, Dean Mark S.
 ##
 # Course & Section: BSIT 4F
 ##
