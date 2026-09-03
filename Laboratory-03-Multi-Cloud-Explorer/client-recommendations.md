@@ -19,3 +19,15 @@ Services: AI Platform, Compute Engine, BigQuery
 **Recommended:** AWS  
 AWS offers global infrastructure and auto-scaling for high traffic.  
 Services: EC2, Auto Scaling, CloudFront
+
+
+## Decision Matrix
+
+| Requirement | Platform | Justification |
+|------------|---------|--------------|
+| Startup | AWS | Low cost and scalable |
+| Enterprise | AWS | Wide services |
+| Microsoft Environment | Azure | Best integration |
+| AI/ML | GCP | Strong AI tools |
+| Kubernetes | GCP | Native support |
+| Global App | AWS | Global infrastructure |
