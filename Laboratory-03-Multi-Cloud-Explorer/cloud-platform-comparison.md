@@ -20,3 +20,13 @@
    - GCP is strongest in AI and Kubernetes because of its advanced machine learning tools and Kubernetes origins.
 4.	Which cloud platform would you personally choose and why?
    - I would choose AWS because of its flexibility, large community, and wide service offerings.
+
+## Service Mapping Across Cloud Platforms
+
+| Service Category | AWS | Microsoft Azure | Google Cloud Platform |
+|------------------|-----|----------------|------------------------|
+| Virtual Machine | EC2 | Virtual Machines | Compute Engine |
+| Object Storage | S3 | Blob Storage | Cloud Storage |
+| Identity Management | IAM | Azure Active Directory | Cloud IAM |
+| SQL Database | RDS | Azure SQL Database | Cloud SQL |
+| Kubernetes | EKS | AKS | Google Kubernetes Engine (GKE) |
