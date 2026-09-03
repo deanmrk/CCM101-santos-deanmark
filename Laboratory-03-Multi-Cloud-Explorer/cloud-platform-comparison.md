@@ -9,3 +9,14 @@
 | Identity | IAM | Azure AD | Cloud IAM |
 | Primary Strength | Largest service range | Microsoft integration | AI & data analytics |
 | Ideal Organizations | Startups & enterprises | Microsoft-based orgs | AI-focused companies |
+
+
+# After completing the table, answer the following questions in 2–3 sentences each.
+1.	Which cloud provider offers the broadest range of services?
+   - AWS offers the broadest range of services because it has the most mature and extensive cloud ecosystem. 
+2.	Which provider best integrates with Microsoft technologies?
+   -  Microsoft Azure integrates best with Microsoft technologies since it supports Windows Server, Active Directory, and Microsoft 365.
+3.	Which provider is strongest in Artificial Intelligence and Kubernetes?
+   - GCP is strongest in AI and Kubernetes because of its advanced machine learning tools and Kubernetes origins.
+4.	Which cloud platform would you personally choose and why?
+   - I would choose AWS because of its flexibility, large community, and wide service offerings.
