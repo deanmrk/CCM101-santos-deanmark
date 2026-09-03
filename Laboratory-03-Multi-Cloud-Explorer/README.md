@@ -31,7 +31,7 @@ These services can host Linux servers in a scalable and flexible cloud environme
 
 ---
 
-## Screenshots
+## My Screenshots
 
 ### Memory
 ![Memory](https://github.com/user-attachments/assets/2cd15d0d-5906-41f5-ae2c-1fb5f296076e)
