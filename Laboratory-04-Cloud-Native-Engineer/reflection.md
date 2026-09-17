@@ -8,6 +8,6 @@ When using docker rm, the container is completely removed along with its stored 
 
 The containerization improves collaboration between developers and IT operations. Developers can build applications in containers, and operations teams can deploy them without worrying about compatibility issues. This ensures consistency across different environments such as development, testing, and production.
 
-My GitHub portfolio is improving as I complete more laboratory activities. It shows my progress in learning cloud computing and helps me organize my work properly. It also serves as proof of my skills, which can be useful in the future when applying for jobs or internships.
+My GitHub portfolio is improving as I complete more laboratory activities. It shows my progress in learning cloud computing and helps me organize my work properly. It also serves as proof of my skills, which can be useful in the future when applying for internships. Thank you!!
 
 ----------------------------
