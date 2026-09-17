@@ -14,5 +14,5 @@ This shows all containers including stopped ones.
 4. docker rm 8c0b086f586b  <br>
 This deletes the container permanently.
 -------------
-5. docker --version
+5. docker --version <br>
 View the docker version
