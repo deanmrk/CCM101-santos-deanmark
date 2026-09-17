@@ -1,6 +1,6 @@
 # Docker Deployment and Lifecycle
 
-## The Commands i used and Explanation
+## The commands i used and Explanation
 
 1. docker ps  
 This shows all running containers.
