@@ -1,6 +1,6 @@
 # Docker Deployment and Lifecycle
 
-## Commands and Explanation
+## The Commands i used and Explanation
 
 1. docker ps  
 This shows all running containers.
@@ -13,3 +13,6 @@ This shows all containers including stopped ones.
 ------
 4. docker rm 8c0b086f586b  <br>
 This deletes the container permanently.
+-------------
+5. docker --version
+View the docker version
