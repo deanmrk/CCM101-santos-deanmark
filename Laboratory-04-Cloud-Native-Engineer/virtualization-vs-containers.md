@@ -2,7 +2,7 @@
 
 ## Comparison Table
 
-| Category            | Virtual Machines (VMs)               | Containers                   |
+| Category            | Virtual Machines              | Containers                   |
 | ------------------- | ------------------------------------ | ---------------------------- |
 | Architecture        | Each VM has its own operating system | Containers share the host OS |
 | Boot Time           | Takes minutes to start               | Starts in seconds            |
