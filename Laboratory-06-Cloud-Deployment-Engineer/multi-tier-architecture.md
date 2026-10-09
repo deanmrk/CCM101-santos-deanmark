@@ -2,7 +2,7 @@
 
 ## What is a Two-Tier Architecture?
 
-For me, as an it student, i think a **Two-Tier Architecture** is a software design pattern that divides an application into two distinct layers or "tiers," each responsible for a specific function. In this model, the **first tier** handles the presentation and application logic (what the user interacts with), while the **second tier** manages data storage and retrieval (the database). These two tiers communicate with each other over a network — or in our case, through Docker's internal container network.
+For me, as an it student, i think a **Two-Tier Architecture** is a software design pattern that divides an application into two distinct layers or "tiers," each responsible for a specific function. In this model, the **first tier** handles the presentation and application logic (what the user interacts with), while the **second tier** manages data storage and retrieval (the database). These two tiers communicate with each other over a network - or in our case, through Docker's internal container network.
 
 In our Nextcloud deployment, the **Nextcloud web application** acts as the first tier (the app/web layer), and **MariaDB** acts as the second tier (the database layer). Each runs in its own isolated container but is connected through Docker Compose.
 
@@ -25,7 +25,7 @@ In our mission, **Nextcloud** fulfills this role. It serves the web interface on
 
 **Role:** The Database Tier is the back-end layer responsible for persistent data management. Its responsibilities include:
 
-- **Storing Persistent Data:** All information — user accounts, passwords, file metadata, settings — is stored here and survives even if the application restarts.
+- **Storing Persistent Data:** All information - user accounts, passwords, file metadata, settings - is stored here and survives even if the application restarts.
 - **Handling Database Queries:** It receives structured queries (SQL) from the application tier and returns the appropriate data.
 - **Ensuring Data Integrity:** It enforces rules to keep data consistent, valid, and protected from corruption.
 - **Access Control:** It uses credentials (username, password) to ensure only authorized services can read or write data.
@@ -36,6 +36,6 @@ In our mission, **MariaDB** fulfills this role. It stores the Nextcloud database
 
 ## Why Separate Them?
 
-Separating the web application and the database into two distinct containers — rather than combining them into one — offers significant advantages in reliability, scalability, and security.
+Separating the web application and the database into two distinct containers - rather than combining them into one - offers significant advantages in reliability, scalability, and security.
 
-First, **separation of concerns** means that each container has one job and does it well; if the web server crashes or needs to be updated, the database remains unaffected and data is not lost. Second, **scalability becomes simpler**: if the web application receives heavy traffic, you can spin up multiple Nextcloud containers without duplicating the database, whereas a single-container design would require scaling everything together inefficiently. Finally, **security is greatly improved** because the database tier is not directly exposed to the internet — only the application tier can communicate with it through Docker's internal network, reducing the attack surface and protecting sensitive user data.
+First, **separation of concerns** means that each container has one job and does it well; if the web server crashes or needs to be updated, the database remains unaffected and data is not lost. Second, **scalability becomes simpler**: if the web application receives heavy traffic, you can spin up multiple Nextcloud containers without duplicating the database, whereas a single-container design would require scaling everything together inefficiently. Finally, **security is greatly improved** because the database tier is not directly exposed to the internet - only the application tier can communicate with it through Docker's internal network, reducing the attack surface and protecting sensitive user data.
