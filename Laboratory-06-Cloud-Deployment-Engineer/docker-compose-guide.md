@@ -1,8 +1,8 @@
-# 📖 Docker Compose Guide
+# Docker Compose Guide
 
 ## Overview
 
-This document explains the `docker-compose.yml` file used to deploy the Nextcloud private cloud storage system alongside its MariaDB database. It is written for engineers who need to understand the configuration before deploying or modifying the stack.
+In this document i explains the `docker-compose.yml` file i used to deploy the Nextcloud private cloud storage system alongside its MariaDB database. It is written for engineers who need to understand the configuration before deploying or modifying the stack.
 
 ---
 
@@ -33,7 +33,7 @@ services:
 
 ---
 
-## 📋 Concept Explanations
+## Concept Explanations
 
 ### 1. What does the `services:` block do?
 
@@ -85,7 +85,7 @@ This tells the Nextcloud application: *"Look for the database server at the host
 
 ---
 
-## ⚙️ Key Configuration Breakdown
+## Key Configuration Breakdown
 
 ### Environment Variables
 
@@ -110,7 +110,7 @@ This maps **port 80 inside the container** (where Nextcloud's web server listens
 
 ---
 
-## 🚀 Deployment Commands Reference
+## My Deployment Commands Reference
 
 ```bash
 # Start all services in detached (background) mode
