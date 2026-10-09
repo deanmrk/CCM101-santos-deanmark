@@ -12,4 +12,4 @@ Using environment variables like `MYSQL_PASSWORD` in the Compose file is a best 
 
 Deploying a fully functional Nextcloud system - an enterprise-grade private cloud - in just a matter of minutes was genuinely exciting. Seeing the Nextcloud setup page appear in the browser after just a few terminal commands made me feel the real power of containerization and orchestration tools.
 
-Since Mission 1, my understanding of cloud computing has grown from a vague concept into something practical and tangible. What once seemed abstract - containers, images, networking, ports — now feels like a toolkit I can actually use. Mission 6, in particular, showed me how real cloud infrastructure is built: not command by command, but through intentional, well-structured code.
+Since Mission 1, my understanding of cloud computing has grown from a vague concept into something practical and tangible. What once seemed abstract - containers, images, networking, ports - now feels like a toolkit I can actually use. Mission 6, in particular, showed me how real cloud infrastructure is built: not command by command, but through intentional, well-structured code. Thank youu!
