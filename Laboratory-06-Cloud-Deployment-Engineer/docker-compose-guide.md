@@ -110,29 +110,3 @@ This maps **port 80 inside the container** (where Nextcloud's web server listens
 
 ---
 
-## My Deployment Commands Reference
-
-```bash
-# Start all services in detached (background) mode
-docker-compose up -d
-
-# View running services and their status
-docker-compose ps
-
-# View logs from all services
-docker-compose logs
-
-# View logs from a specific service
-docker-compose logs app
-docker-compose logs database
-
-# Stop and remove all containers, networks created by Compose
-docker-compose down
-
-# Stop services without removing containers
-docker-compose stop
-```
-
----
-
-*Part of the Cloud Computing Portfolio — CCM101 | Mission 6*
