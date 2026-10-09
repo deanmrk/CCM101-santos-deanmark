@@ -1,14 +1,14 @@
-# 🚀 Mission 6: The Cloud Deployment Engineer
+# Mission 6: The Cloud Deployment Engineer
 
 ## Mission Overview
 
-CloudNova Technologies has been tasked by a university client to deploy a private, secure cloud storage system as a replacement for Google Drive. The solution chosen is **Nextcloud**, an enterprise-grade private cloud platform that requires a backend database to manage user credentials and file metadata.
+For me, the cloudNova Technologies has been tasked by a university client to deploy a private, secure cloud storage system as a replacement for Google Drive. The solution chosen is **Nextcloud**, an enterprise-grade private cloud platform that requires a backend database to manage user credentials and file metadata.
 
-In this mission, I transitioned from manually running individual Docker containers to using **Infrastructure as Code (IaC)** via **Docker Compose**. I deployed a two-tier architecture — a **MariaDB** database container and a **Nextcloud** web container — linked together and launched simultaneously with a single command.
+this mission, I transitioned from manually running individual Docker containers to using **Infrastructure as Code (IaC)** via **Docker Compose**. I deployed a two-tier architecture - a **MariaDB** database container and a **Nextcloud** web container - linked together and launched simultaneously with a single command.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Explain the concept of a multi-tier application architecture
 - Understand the purpose and structure of a `docker-compose.yml` file
@@ -19,7 +19,7 @@ In this mission, I transitioned from manually running individual Docker containe
 
 ---
 
-## 💻 Commands Executed
+## Commands Executed
 
 ```bash
 # Create project directory and navigate into it
@@ -41,7 +41,7 @@ docker-compose down
 
 ---
 
-## 🧠 Skills Learned
+## Skills Learned
 
 | Skill | Description |
 |---|---|
@@ -54,31 +54,3 @@ docker-compose down
 | **Port Mapping** | Mapped internal container ports to host ports for browser access |
 
 ---
-
-## 📁 Repository Structure
-
-```
-Laboratory-06-Cloud-Deployment-Engineer/
-├── README.md
-├── multi-tier-architecture.md
-├── docker-compose-guide.md
-├── reflection.md
-└── screenshots/
-    ├── compose-deployment.png
-    ├── nextcloud-web.png
-    └── compose-teardown.png
-```
-
----
-
-## 📸 Evidence / Screenshots
-
-| Screenshot | Description |
-|---|---|
-| `compose-deployment.png` | Terminal showing successful `docker-compose up -d` and running containers |
-| `nextcloud-web.png` | Browser displaying the Nextcloud installation/setup page |
-| `compose-teardown.png` | Terminal showing containers being stopped and removed via `docker-compose down` |
-
----
-
-*Part of the Cloud Computing Portfolio — CCM101*
